@@ -131,6 +131,13 @@ select{
     width: 181px;
 }
 
+.row-1 select{
+    width: 88px;
+    height: 30px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .op{
     color: #808080;
     font-size: 20px;
@@ -359,4 +366,16 @@ select{
 .ok.nd img{
     width: 20px;
     height: 20px;
+}
+
+.pat{
+    width: 109px;
+}
+
+.price{
+    width: 80px;
+}
+
+.time{
+    width: 33px;
 }

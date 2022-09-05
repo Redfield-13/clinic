@@ -5,6 +5,7 @@ import SignUp from './components/signup'
 import Signin from './components/signin'
 import Reset from './components/reset'
 import Manager from './components/signs/manager'
+import Recp from './components/signs/recp'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/signin' element={<Signin></Signin>}></Route>
         <Route path='/signin/reset' element={<Reset></Reset>}></Route>
         <Route path='/signin/manager' element={<Manager></Manager>}></Route>
+        <Route path='/signin/recp' element={<Recp></Recp>}></Route>
       </Routes>
     </BrowserRouter>
   );
