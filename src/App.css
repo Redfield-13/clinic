@@ -205,3 +205,30 @@ select{
     margin-top: 20px;
     margin-bottom: 70px;
 }
+.pass.nd label{
+    margin-right: 0;
+}
+
+.pass.md.rd{
+    margin-top: 30px;
+}
+
+.pass.md.rd label{
+    margin-right: 116px;
+}
+
+.check{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.check a{
+    color: #0096FF;
+}
+
+.for{
+    color: #0096FF;
+    text-decoration: underline;
+}
