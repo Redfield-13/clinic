@@ -10,8 +10,8 @@
 }
 
 .logo{
-    width: fit-content;
-    font-size: 71.2px;
+    width: 100%;
+    font-size: 65.2px;
     height: fit-content;
     color: 	#0096FF;
     margin-left: auto;
@@ -33,19 +33,17 @@
     font-size: 22px;
     /* font-family: 'Inter', sans-serif; */
     height: fit-content;
-    width: fit-content;
+    width: 90%;
     font-weight: 600;
     color: #808080;
     margin-left: auto;
     margin-right: auto;
-    width: 490px;
     margin-bottom: 110px;
     
 }
 
 .wel.nd{
     font-size: 18px;
-    overflow: hidden;
     width: 90%;
     margin-bottom: 70px;
 }
@@ -359,6 +357,19 @@ select{
     padding-left: 0;
 }
 
+.req{
+    width: 250px;
+    border: none;
+    border-bottom: #808080 solid 2px;
+    height: 20px;
+}
+
+.req::placeholder{
+    font-size: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
 .ok.nd{
     width: 40px;
 }
@@ -378,4 +389,32 @@ select{
 
 .time{
     width: 33px;
+}
+
+.pat.nd{
+    font-size: 18px;
+    width: 125px;
+}
+
+.cause{
+    width: 150px;
+    overflow: hidden;
+}
+
+.tt{
+    font-size: 24px;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.signin.ff{
+    margin-left: 0;
+    margin-right: 0;
+    margin-left: 80px;
+}
+
+.mid.nd.ls{
+    margin-top: 40px;
 }
