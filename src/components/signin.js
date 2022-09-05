@@ -1,8 +1,20 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import {useState} from 'react'
 
-function signin() {
+function Signin() {
+    var signs = ['Moafag Ahmed','Eyad Ayman','Mayada Abuagla']
+    var rroutes = ['/signin/recp','/signin/doctor','/signin/patient']
+    
+var mj = '/signin/manager'
+    
+    const [mail,setMail] = useState('')
 
+
+
+    const handleMail = event =>{
+        setMail(event.target.value)
+    }
   const show = ()=>{
     document.getElementById('verify').style.display = 'block'
 }
@@ -10,6 +22,7 @@ function signin() {
 const dismiss = ()=>{
     document.getElementById('verify').style.display = 'none'
 }
+    
   return (
     <div>
         <div className="logo nd">Care-Zone</div>
@@ -17,7 +30,7 @@ const dismiss = ()=>{
 
         <form className='pass nd' action="">
             <label className='y' htmlFor="">Email/Phone Number</label>
-            <input placeholder='********' type="text" name="" id="" />
+            <input value={mail} placeholder='example@example.com' type="text" name="" id="email" onChange={handleMail} />
         </form>
         <form className='pass md rd' action="">
             <label htmlFor="">Password</label>
@@ -28,7 +41,10 @@ const dismiss = ()=>{
             <p className='for' onClick={show} >Forgot Password</p>
         </div>
 
-        <button className='signin rd'>Sign In</button>
+        <Link className='link'  to={mj}>
+            <button className='signin rd'>Sign In</button>
+        </Link>
+        
 
         <div id='verify' className="verify">
             <p className='vf'>Reset Password</p>
@@ -46,4 +62,4 @@ const dismiss = ()=>{
   )
 }
 
-export default signin
+export default Signin
