@@ -21,6 +21,14 @@
     margin-bottom: 45px;
 }
 
+.logo.nd{
+    font-size: 32px;
+    margin-left: 40px;
+    margin-right: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
 .wel{
     font-size: 22px;
     /* font-family: 'Inter', sans-serif; */
@@ -52,4 +60,102 @@
 .signin:hover{
     background-color: white;
     color: #0096FF;
+}
+
+.mid{
+    font-size: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    color: black;
+    /* font-family: 'Inter', sans-serif; */
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 800;
+}
+.forms{
+    display: flex;
+    /* width: fit-content; */
+    height: fit-content;
+    margin-top: 40px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-1 label{
+    width: 106px;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.form-1 input{
+    height: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
+    border-color: #0096FF;
+    border: #0096FF solid 2px;
+}
+
+select{
+    height: 45px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-color: #0096FF;
+    width: 181px;
+}
+
+.op{
+    color: #808080;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+::placeholder{
+    color: #808080;
+    font-size: 20px;
+    text-align: left;
+    padding-left: 10px;
+}
+.mag{
+    margin-right: 18px;
+}
+
+.mag.nd{
+    margin-right: 29px;
+}
+
+.pass{
+    margin-top: 70px;
+}
+
+.pass.md{
+    margin-top: 20px;
+}
+
+.pass label{
+    margin-right: 90px;
+    margin-left: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.pass.md label{
+    margin-right: 0;
+}
+
+.pass input{
+    height: 35px;
+    width: 60%;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: right;
+    border-color: #0096FF;
+    border: #0096FF solid 2px;
+}
+
+.signin.nd{
+    margin-top: 80px;
 }
