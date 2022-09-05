@@ -280,6 +280,7 @@ select{
     font-size: 18px;
     font-weight: 700;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: fit-content;
 }
 
 .desc{
@@ -436,4 +437,44 @@ select{
     margin-right: 0;
     margin-left: 400px;
     width:320px ;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+}
+.mid.nd.ls.fl{
+    margin-left: 35px;
+}
+
+.pat.req{
+    font-size: 45px;
+    margin-top: 30px;
+    width: 100px;
+    margin-right: 20px;
+    text-align: center;
+    height: 52px;
+}
+
+.signin.appo{
+    margin-left: 0;
+    margin-right: 0;
+    width: 250px;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.plus{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.time.nd{
+    width: 70px;
+}
+
+.cross{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
 }

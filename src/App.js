@@ -8,6 +8,7 @@ import Manager from './components/signs/manager'
 import Recp from './components/signs/recp'
 import Doctor from './components/signs/doctor'
 import Doctor02 from './components/signs/doctor02'
+import Patient from './components/signs/pat'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path='/signin/recp' element={<Recp></Recp>}></Route>
         <Route path='/signin/doctor' element={<Doctor></Doctor>}></Route>
         <Route path='/signin/doctor02' element={<Doctor02></Doctor02>}></Route>
+        <Route path='/signin/patient' element={<Patient></Patient>}></Route>
       </Routes>
     </BrowserRouter>
   );
