@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function signin() {
 
@@ -36,7 +37,10 @@ const dismiss = ()=>{
                 <label htmlFor="">Phone Number</label>
                 <input placeholder='0*********' type="text" />
             </form>
-            <button onClick={dismiss} className='signin rd'>Send</button>
+            <Link className='link' to='/signin/reset'>
+               <button onClick={dismiss} className='signin rd'>Send</button>
+            </Link>
+            
         </div>
     </div>
   )

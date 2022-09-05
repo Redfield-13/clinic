@@ -259,3 +259,104 @@ select{
 .signin.ls{
     margin-top: 170px;
 }
+
+.link{
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.name{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.desc{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #808080;
+}
+
+.right{
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+.mid.nd.ls{
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.table{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+.row-1{
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    border: solid black 1px;
+    justify-content: space-between;
+}
+
+.row-1 p{
+    font-size: 16px;
+}
+
+.docname{
+    width: 103.53px;
+}
+
+.docsch{
+    width:77.5px;
+}
+
+.ok{
+    width: 20px;
+}
+
+.set{
+    width: 150px;
+}
+
+.set.nd{
+    color: #808080;
+    border-bottom: #808080 solid 2px;
+    height: 20px;
+}
+
+.row-1 input{
+    width: 150px;
+    border: none;
+    border-bottom: #808080 solid 2px;
+    height: 20px;
+}
+
+.row-1 input::placeholder{
+    font-size: 14.5px;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.ok.nd{
+    width: 40px;
+}
+
+.ok.nd img{
+    width: 20px;
+    height: 20px;
+}
