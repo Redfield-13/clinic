@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.sign{
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo{
+    width: fit-content;
+    font-size: 71.2px;
+    height: fit-content;
+    color: 	#0096FF;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Inter', sans-serif;
+    margin-top: 160px;
+    margin-bottom: 45px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wel{
+    font-size: 22px;
+    /* font-family: 'Inter', sans-serif; */
+    height: fit-content;
+    width: fit-content;
+    font-weight: 600;
+    color: #808080;
+    margin-left: auto;
+    margin-right: auto;
+    width: 490px;
+    margin-bottom: 110px;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.signin{
+    color: white;
+    background-color: #0096FF;
+    border-radius: 30px;
+    width: 170px;
+    border: none;
+    height: 50px;
+    font-size: 32px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signin:hover{
+    background-color: white;
+    color: #0096FF;
 }
