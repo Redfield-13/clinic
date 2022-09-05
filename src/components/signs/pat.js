@@ -3,6 +3,13 @@ import plus from '../../images/plus-icon.svg'
 import cross from '../../images/circle-xmark-solid.svg'
 
 function pat() {
+    const show = ()=>{
+        document.getElementById('ca').style.display = 'block'
+    }
+    const cancel = ()=>{
+        document.getElementById('ca').style.display = 'none'
+        document.getElementById('appos').style.display = 'none'
+    }
   return (
     <div>
         <div className="header">
@@ -52,15 +59,20 @@ function pat() {
             </div>
         </div>
 
-        <div className="table">
+        <div id='appos' className="table">
             <div className="row-1">
                 <p className='docname'>Eyad Ayman</p>
                 <p className='price'>2000</p>
                 <p>Not Paid</p>                
                 <p className='time'>Mon, 12pm</p>
-                <p><img className='cross' src={cross} alt="" /></p>
+                <p><img onClick={show} className='cross' src={cross} alt="" /></p>
                 
             </div>
+        </div>
+
+        <div id='ca' className="cancel">
+            <p>Cancel Appointment</p>
+            <button onClick={cancel} className='signin'>Confirm</button>
         </div>
     </div>
   )
