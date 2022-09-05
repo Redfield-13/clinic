@@ -1,6 +1,14 @@
 import React from 'react'
 
 function signup() {
+
+    const show = ()=>{
+        document.getElementById('verify').style.display = 'block'
+    }
+
+    const dismiss = ()=>{
+        document.getElementById('verify').style.display = 'none'
+    }
   return (
     <div>
         <div className="logo nd">Care-Zone</div>
@@ -48,7 +56,17 @@ function signup() {
             <input placeholder='********' type="text" name="" id="" />
         </form>
 
-        <button className='signin nd'>Sign Up</button>
+        <button onClick={show} className='signin nd'>Sign Up</button>
+
+        <div id='verify' className="verify">
+            <p className='vf'>Verify Your Phone Number</p>
+            <div className="wel nd">We will send you a verification code to your phone number,enter it to sign up.</div>
+            <form className='ver' action="">
+                <label htmlFor="">Verification Code</label>
+                <input placeholder='000000' type="text" />
+            </form>
+            <button onClick={dismiss} className='signin rd'>Verify</button>
+        </div>
     </div>
   )
 }
